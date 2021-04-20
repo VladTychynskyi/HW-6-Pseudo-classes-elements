@@ -62,17 +62,9 @@ body {
     cursor: pointer;
 }
 
-.case::before {
-
-    content: "";
-    display: block;
-    width: 200px;
-    height: 10px;
-    border-top: 2px solid #C4C4C4;
-    border-bottom: 2px solid #C4C4C4;
-}
-
+.case::before,
 .case::after {
+
     content: "";
     display: block;
     width: 200px;
